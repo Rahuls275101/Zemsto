@@ -1,0 +1,13 @@
+ERROR - 2026-07-07 02:18:04 --> mysqli_sql_exception: Unknown column 'registration_type' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(439): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1745): App\Models\Commanmodel->insert_query_get_inserid('user_account', Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->register_process()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

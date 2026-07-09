@@ -1,0 +1,299 @@
+CRITICAL - 2026-06-23 00:56:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Syllabus.php(60): CodeIgniter\Model->__call('get_count', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-23 00:56:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Syllabus.php(60): CodeIgniter\Model->__call('get_count', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-23 01:03:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Syllabus.php(60): CodeIgniter\Model->__call('get_count', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-23 01:03:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Syllabus.php(60): CodeIgniter\Model->__call('get_count', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-23 01:09:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(939): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Syllabus.php(65): App\Models\Commanmodel->get_single_query_count('syllabus_questi...', Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-06-23 01:09:28 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 940.
+ 1 APPPATH/Controllers/Syllabus.php(65): App\Models\Commanmodel->get_single_query_count('syllabus_questions', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-23 01:10:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(939): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Syllabus.php(65): App\Models\Commanmodel->get_single_query_count('syllabus_questi...', Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-06-23 01:10:08 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 940.
+ 1 APPPATH/Controllers/Syllabus.php(65): App\Models\Commanmodel->get_single_query_count('syllabus_questions', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-23 01:10:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(939): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Syllabus.php(67): App\Models\Commanmodel->get_single_query_count('syllabus_questi...', Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-06-23 01:10:40 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 940.
+ 1 APPPATH/Controllers/Syllabus.php(67): App\Models\Commanmodel->get_single_query_count('syllabus_questions', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-23 01:11:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3 in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(939): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Syllabus.php(67): App\Models\Commanmodel->get_single_query_count('syllabus_questi...', Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-06-23 01:11:22 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 940.
+ 1 APPPATH/Controllers/Syllabus.php(67): App\Models\Commanmodel->get_single_query_count('syllabus_questions', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-23 01:12:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3 in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(939): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Syllabus.php(67): App\Models\Commanmodel->get_single_query_count('syllabus_questi...', Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-06-23 01:12:04 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 940.
+ 1 APPPATH/Controllers/Syllabus.php(67): App\Models\Commanmodel->get_single_query_count('syllabus_questions', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Syllabus->syllabus_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Syllabus))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-23 02:15:53 --> Undefined array key "filteredRecords"
+in APPPATH/Views/frontend/index.php on line 122.
+ 1 APPPATH/Views/frontend/index.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filteredRecords"', 'APPPATH/Views/frontend/index.php', 122)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH/Controllers/Home.php(59): view('frontend/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-23 02:29:21 --> Undefined variable $productfirst
+in APPPATH/Controllers/Home.php on line 78.
+ 1 APPPATH/Controllers/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productfirst', 'APPPATH/Controllers/Home.php', 78)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->questions('7')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-23 05:36:19 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1459): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->register_process()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-23 05:36:39 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1459): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->register_process()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-23 05:37:13 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1688): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->verify_payment()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-23 06:10:55 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1459): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->register_process()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-23 06:11:25 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1688): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->verify_payment()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-23 06:12:44 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(439): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1462): App\Models\Commanmodel->insert_query_get_inserid('user_account', Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->register_process()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-23 06:12:52 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(439): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1462): App\Models\Commanmodel->insert_query_get_inserid('user_account', Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->register_process()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-23 06:13:03 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(439): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1462): App\Models\Commanmodel->insert_query_get_inserid('user_account', Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->register_process()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-23 06:15:30 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1688): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->verify_payment()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-23 06:48:58 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1688): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->verify_payment()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-23 06:52:44 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1688): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->verify_payment()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

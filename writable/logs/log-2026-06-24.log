@@ -1,0 +1,780 @@
+ERROR - 2026-06-24 00:20:43 --> mysqli_sql_exception: Duplicate entry 'computer-olympiad-excellence-guide-class-1' for key 'url_slug' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `books` ...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `books` ...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `books` ...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `books` ...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Book.php(215): App\Models\Commanmodel->update_query('books', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Book->book_update()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-24 00:20:59 --> mysqli_sql_exception: Duplicate entry 'computer-olympiad-excellence-guide-class-1' for key 'url_slug' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `books` ...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `books` ...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `books` ...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `books` ...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Book.php(215): App\Models\Commanmodel->update_query('books', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Book->book_update()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-24 00:26:55 --> mysqli_sql_exception: Duplicate entry 'computer-olympiad-excellence-guide-class-1' for key 'url_slug' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `books` ...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `books` ...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `books` ...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `books` ...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Book.php(311): App\Models\Commanmodel->update_query('books', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Book->book_update()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-24 00:30:18 --> mysqli_sql_exception: Duplicate entry 'computer-olympiad-excellence-guide-class-1' for key 'url_slug' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `books` ...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `books` ...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `books` ...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `books` ...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Book.php(312): App\Models\Commanmodel->update_query('books', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Book->book_update()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-24 00:32:04 --> mysqli_sql_exception: Duplicate entry 'computer-olympiad-excellence-guide-class-1' for key 'url_slug' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `books` ...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `books` ...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `books` ...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `books` ...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Book.php(231): App\Models\Commanmodel->update_query('books', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Book->book_update()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-24 00:35:42 --> mysqli_sql_exception: Duplicate entry 'computer-olympiad-excellence-guide-class-1' for key 'url_slug' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `books` ...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `books` ...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `books` ...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `books` ...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Book.php(357): App\Models\Commanmodel->update_query('books', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Book->book_update()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-24 00:38:54 --> mysqli_sql_exception: Duplicate entry 'computer-olympiad-excellence-guide-class-1' for key 'url_slug' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `books` ...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `books` ...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `books` ...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `books` ...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Book.php(331): App\Models\Commanmodel->update_query('books', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Book->book_update()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-24 00:42:36 --> mysqli_sql_exception: Duplicate entry 'computer-olympiad-excellence-guide-class-1' for key 'url_slug' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `books` ...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `books` ...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `books` ...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `books` ...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Book.php(363): App\Models\Commanmodel->update_query('books', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Book->book_update()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-06-24 00:43:48 --> Undefined property: stdClass::$book_image
+in APPPATH/Controllers/Book.php on line 91.
+ 1 APPPATH/Controllers/Book.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$book_image', 'APPPATH/Controllers/Book.php', 91)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Book->book_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 00:51:47 --> Attempt to read property "cms_page_heading" on null
+in APPPATH/Views/frontend/book.php on line 98.
+ 1 APPPATH/Views/frontend/book.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_page_heading" on null', 'APPPATH/Views/frontend/book.php', 98)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/book.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/book', [], true)
+ 5 APPPATH/Controllers/Home.php(752): view('frontend/book')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->book()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 00:54:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Home.php(770): CodeIgniter\Model->__call('get_distinct', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->book()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 00:57:12 --> Undefined variable $title
+in APPPATH/Views/frontend/header.php on line 24.
+ 1 APPPATH/Views/frontend/header.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH/Views/frontend/header.php', 24)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/header', [], true)
+ 5 APPPATH/Controllers/Home.php(756): view('frontend/header', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->book()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 00:57:52 --> Undefined variable $selected_class
+in APPPATH/Views/frontend/book.php on line 37.
+ 1 APPPATH/Views/frontend/book.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selected_class', 'APPPATH/Views/frontend/book.php', 37)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/book.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/book', [], true)
+ 5 APPPATH/Controllers/Home.php(761): view('frontend/book', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->book()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 00:58:14 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH/Views/frontend/book.php on line 31.
+ 1 APPPATH/Views/frontend/book.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH/Views/frontend/book.php', 31)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/book.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/book', [], true)
+ 5 APPPATH/Controllers/Home.php(761): view('frontend/book', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->book()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 00:59:08 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH/Views/frontend/book.php on line 37.
+ 1 APPPATH/Views/frontend/book.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH/Views/frontend/book.php', 37)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/book.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/book', [], true)
+ 5 APPPATH/Controllers/Home.php(761): view('frontend/book', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->book()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 01:01:01 --> Undefined variable $classes
+in APPPATH/Controllers/Home.php on line 751.
+ 1 APPPATH/Controllers/Home.php(751): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $classes', 'APPPATH/Controllers/Home.php', 751)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->book()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 01:04:22 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH/Controllers/Home.php on line 797.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(875): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 01:04:40 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(769): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-24 01:04:40 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 770.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->book()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 01:05:50 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(780): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:05:58 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(780): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:06:00 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(780): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:07:33 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(785): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:07:37 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(785): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:09:13 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(785): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:09:20 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(785): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:09:26 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(785): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:11:17 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(796): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-24 01:11:17 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH/Views/frontend/book.php on line 15.
+ 1 APPPATH/Views/frontend/book.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH/Views/frontend/book.php', 15)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/book.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/book', [], true)
+ 5 APPPATH/Controllers/Home.php(844): view('frontend/book', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->book()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 01:12:21 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:12:37 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:12:44 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:15:05 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:15:07 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:15:11 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:15:57 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:16:03 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:16:38 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:34:56 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:36:02 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:36:04 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:48:35 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 01:49:16 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 02:01:16 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 02:13:51 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_result.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Olympiad_result->index()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 02:14:06 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_result.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Olympiad_result->index()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 02:14:32 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_result.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Olympiad_result->index()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-24 02:17:44 --> Undefined property: stdClass::$id
+in APPPATH/Views/frontend/olympiad_result.php on line 24.
+ 1 APPPATH/Views/frontend/olympiad_result.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH/Views/frontend/olympiad_result.php', 24)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/olympiad_result.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/olympiad_result', [], true)
+ 5 APPPATH/Controllers/Olympiad_result.php(38): view('frontend/olympiad_result', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_result->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 03:49:25 --> mysqli_sql_exception: Table 'snindust_zemsto.olympiad_subjects' doesn't exist in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `r`.*, `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*, `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*, `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*, `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_results.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Olympiad_results->olympiad_results_list()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-24 03:49:25 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Olympiad_results.php on line 74.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_results->olympiad_results_list()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 03:50:55 --> mysqli_sql_exception: Table 'snindust_zemsto.olympiad_subjects' doesn't exist in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `r`.*, `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*, `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*, `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*, `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_results.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Olympiad_results->olympiad_results_list()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-24 03:50:55 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Olympiad_results.php on line 74.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_results->olympiad_results_list()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 03:54:19 --> mysqli_sql_exception: Table 'snindust_zemsto.olympiad_subjects' doesn't exist in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_results.php(181): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Olympiad_results->get_subjects()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-24 03:54:19 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Olympiad_results.php on line 182.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_results->get_subjects()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 03:54:19 --> mysqli_sql_exception: Table 'snindust_zemsto.olympiad_classes' doesn't exist in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_results.php(195): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Olympiad_results->get_classes()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-24 03:54:19 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Olympiad_results.php on line 196.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_results->get_classes()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 03:54:19 --> mysqli_sql_exception: Table 'snindust_zemsto.olympiad_subjects' doesn't exist in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_results.php(86): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Olympiad_results->olympiad_results_list()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 03:54:19 --> mysqli_sql_exception: Table 'snindust_zemsto.olympiad_subjects' doesn't exist in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `r`.*, `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*, `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*, `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*, `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_results.php(91): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Olympiad_results->olympiad_results_list()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-24 03:54:19 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Olympiad_results.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_results->olympiad_results_list()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_results))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 03:57:46 --> mysqli_sql_exception: Unknown column 'subject' in 'where clause' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_result.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Olympiad_result->search()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-24 03:57:46 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Olympiad_result.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_result->search()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 04:00:26 --> Undefined property: stdClass::$subject
+in APPPATH/Controllers/Olympiad_result.php on line 105.
+ 1 APPPATH/Controllers/Olympiad_result.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$subject', 'APPPATH/Controllers/Olympiad_result.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_result->search()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 04:00:46 --> Undefined property: stdClass::$subject
+in APPPATH/Controllers/Olympiad_result.php on line 105.
+ 1 APPPATH/Controllers/Olympiad_result.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$subject', 'APPPATH/Controllers/Olympiad_result.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_result->search()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 04:01:01 --> Undefined property: stdClass::$subject
+in APPPATH/Controllers/Olympiad_result.php on line 105.
+ 1 APPPATH/Controllers/Olympiad_result.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$subject', 'APPPATH/Controllers/Olympiad_result.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_result->search()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 04:01:03 --> Undefined property: stdClass::$subject
+in APPPATH/Controllers/Olympiad_result.php on line 105.
+ 1 APPPATH/Controllers/Olympiad_result.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$subject', 'APPPATH/Controllers/Olympiad_result.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_result->search()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 04:01:15 --> Undefined property: stdClass::$subject
+in APPPATH/Controllers/Olympiad_result.php on line 105.
+ 1 APPPATH/Controllers/Olympiad_result.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$subject', 'APPPATH/Controllers/Olympiad_result.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_result->search()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 04:09:24 --> Undefined property: App\Controllers\Home::$commanmodel
+in APPPATH/Controllers/Home.php on line 1078.
+ 1 APPPATH/Controllers/Home.php(1078): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$commanmodel', 'APPPATH/Controllers/Home.php', 1078)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->subscribe()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-24 04:09:36 --> Undefined property: App\Controllers\Home::$commanmodel
+in APPPATH/Controllers/Home.php on line 1078.
+ 1 APPPATH/Controllers/Home.php(1078): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$commanmodel', 'APPPATH/Controllers/Home.php', 1078)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->subscribe()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 04:33:14 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-24 05:33:12 --> Undefined property: stdClass::$class
+in APPPATH/Controllers/Olympiad_result.php on line 106.
+ 1 APPPATH/Controllers/Olympiad_result.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$class', 'APPPATH/Controllers/Olympiad_result.php', 106)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Olympiad_result->search()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olympiad_result))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-24 05:34:06 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-06-24 05:39:36 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Models/Commanmodel.php(445): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(1839): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->verify_payment()
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-24 05:53:18 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

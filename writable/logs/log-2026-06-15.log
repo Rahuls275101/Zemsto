@@ -1,0 +1,29 @@
+CRITICAL - 2026-06-15 05:25:56 --> Undefined variable $about
+in APPPATH/Views/frontend/index.php on line 58.
+ 1 APPPATH/Views/frontend/index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $about', 'APPPATH/Views/frontend/index.php', 58)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH/Controllers/Home.php(47): view('frontend/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-15 07:03:31 --> Undefined variable $productfirst
+in APPPATH/Controllers/Home.php on line 60.
+ 1 APPPATH/Controllers/Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productfirst', 'APPPATH/Controllers/Home.php', 60)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->clients()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-15 07:10:13 --> Undefined variable $commanmodel
+in APPPATH/Views/frontend/clients.php on line 18.
+ 1 APPPATH/Views/frontend/clients.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Views/frontend/clients.php', 18)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/clients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/clients', [], true)
+ 5 APPPATH/Controllers/Home.php(75): view('frontend/clients')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->clients()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

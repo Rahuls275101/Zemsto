@@ -1,0 +1,22 @@
+[07-Oct-2025 07:28:42 America/Chicago] PHP Fatal error:  Cannot use App\Models\Commanmodel as Commanmodel because the name is already in use in /home2/aseelectricalco/public_html/ajit-panicker/app/Views/frontend/catalog.php on line 15
+[27-Jan-2026 00:42:11 America/Chicago] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown in /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php on line 349
+[27-Jan-2026 00:43:36 America/Chicago] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown in /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php on line 349
+[27-Jan-2026 00:44:06 America/Chicago] PHP Fatal error:  Trait "App\Controllers\Razorpay\Api\Api" not found in /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php on line 15
+[22-Jun-2026 04:16:31 America/Chicago] PHP Fatal error:  Cannot use App\Models\Commanmodel as Commanmodel because the name is already in use in /home3/snindustries/public_html/zemsto/app/Controllers/Home.php on line 14
+[22-Jun-2026 04:16:33 America/Chicago] PHP Fatal error:  Cannot use App\Models\Commanmodel as Commanmodel because the name is already in use in /home3/snindustries/public_html/zemsto/app/Controllers/Home.php on line 14
+[22-Jun-2026 04:17:03 America/Chicago] PHP Fatal error:  Cannot use App\Models\Commanmodel as Commanmodel because the name is already in use in /home3/snindustries/public_html/zemsto/app/Controllers/Home.php on line 14
+[25-Jun-2026 04:59:13 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Olympiad_results::csv_import() in /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_results.php on line 546
+[25-Jun-2026 04:59:46 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Olympiad_results::csv_import() in /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_results.php on line 546
+[25-Jun-2026 04:59:49 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Olympiad_results::csv_import() in /home3/snindustries/public_html/zemsto/app/Controllers/Olympiad_results.php on line 546

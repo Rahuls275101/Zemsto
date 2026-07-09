@@ -1,0 +1,12 @@
+ERROR - 2026-06-28 13:41:25 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/zemsto/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `DISTINC...', 0)
+#1 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 /home3/snindustries/public_html/zemsto/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 /home3/snindustries/public_html/zemsto/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 /home3/snindustries/public_html/zemsto/app/Controllers/Home.php(793): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(925): App\Controllers\Home->book()
+#6 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/snindustries/public_html/zemsto/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/zemsto/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

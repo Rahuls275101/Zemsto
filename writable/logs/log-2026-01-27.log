@@ -1,0 +1,341 @@
+CRITICAL - 2026-01-27 00:42:11 --> Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown
+in SYSTEMPATH/Debug/Exceptions.php on line 349.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2026-01-27 00:43:36 --> mysqli_sql_exception: Duplicate entry '' for key 'uniq_rzp_order' in /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home3/snindustries/public_html/clinicianleader/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php(76): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+#6 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/clinicianleader/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-27 00:43:36 --> Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home3/snindustries/public_html/clinicianleader/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown
+in SYSTEMPATH/Debug/Exceptions.php on line 349.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-27 00:44:06 --> Trait "App\Controllers\Razorpay\Api\Api" not found
+in APPPATH/Controllers/PaymentController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2026-01-27 00:44:28 --> mysqli_sql_exception: Duplicate entry '' for key 'uniq_rzp_order' in /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home3/snindustries/public_html/clinicianleader/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+#6 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/clinicianleader/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-01-27 00:44:29 --> Razorpay Error: Authentication failed
+ERROR - 2026-01-27 00:45:26 --> mysqli_sql_exception: Duplicate entry '' for key 'uniq_rzp_order' in /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home3/snindustries/public_html/clinicianleader/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+#6 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/clinicianleader/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-01-27 00:45:28 --> Razorpay Error: Authentication failed
+CRITICAL - 2026-01-27 00:48:50 --> Undefined variable $receipt
+in APPPATH/Controllers/PaymentController.php on line 51.
+ 1 APPPATH/Controllers/PaymentController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $receipt', 'APPPATH/Controllers/PaymentController.php', 51)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 00:49:53 --> Undefined variable $userId
+in APPPATH/Controllers/PaymentController.php on line 49.
+ 1 APPPATH/Controllers/PaymentController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'APPPATH/Controllers/PaymentController.php', 49)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 00:50:23 --> Undefined variable $userId
+in APPPATH/Controllers/PaymentController.php on line 53.
+ 1 APPPATH/Controllers/PaymentController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'APPPATH/Controllers/PaymentController.php', 53)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 00:50:46 --> Undefined variable $now
+in APPPATH/Controllers/PaymentController.php on line 61.
+ 1 APPPATH/Controllers/PaymentController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $now', 'APPPATH/Controllers/PaymentController.php', 61)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-27 00:51:15 --> mysqli_sql_exception: Duplicate entry '' for key 'uniq_rzp_order' in /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home3/snindustries/public_html/clinicianleader/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+#6 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/clinicianleader/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-27 00:51:15 --> Undefined variable $inserid
+in APPPATH/Controllers/PaymentController.php on line 76.
+ 1 APPPATH/Controllers/PaymentController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $inserid', 'APPPATH/Controllers/PaymentController.php', 76)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-27 00:51:45 --> mysqli_sql_exception: Duplicate entry '' for key 'uniq_rzp_order' in /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home3/snindustries/public_html/clinicianleader/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+#6 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/clinicianleader/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-01-27 00:53:40 --> mysqli_sql_exception: Duplicate entry '' for key 'uniq_rzp_order' in /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home3/snindustries/public_html/clinicianleader/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+#6 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/clinicianleader/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-01-27 00:55:00 --> mysqli_sql_exception: Duplicate entry '' for key 'uniq_rzp_order' in /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home3/snindustries/public_html/clinicianleader/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+#6 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/clinicianleader/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-01-27 00:57:58 --> mysqli_sql_exception: Duplicate entry '' for key 'uniq_rzp_order' in /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home3/snindustries/public_html/clinicianleader/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+#6 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/clinicianleader/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-01-27 00:58:26 --> mysqli_sql_exception: Duplicate entry '' for key 'uniq_rzp_order' in /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home3/snindustries/public_html/clinicianleader/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+#6 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/clinicianleader/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2026-01-27 00:58:52 --> mysqli_sql_exception: Duplicate entry '' for key 'uniq_rzp_order' in /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/clinicianleader/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home3/snindustries/public_html/clinicianleader/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home3/snindustries/public_html/clinicianleader/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home3/snindustries/public_html/clinicianleader/app/Controllers/PaymentController.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(925): App\Controllers\PaymentController->buyplan('10')
+#6 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/clinicianleader/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-27 12:34:53 --> Undefined variable $db
+in APPPATH/Controllers/PaymentController.php on line 235.
+ 1 APPPATH/Controllers/PaymentController.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH/Controllers/PaymentController.php', 235)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->razorpayCallback('13')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 12:35:19 --> Undefined variable $orderId
+in APPPATH/Controllers/PaymentController.php on line 236.
+ 1 APPPATH/Controllers/PaymentController.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orderId', 'APPPATH/Controllers/PaymentController.php', 236)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->razorpayCallback('13')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 12:35:43 --> Undefined variable $update
+in APPPATH/Controllers/PaymentController.php on line 246.
+ 1 APPPATH/Controllers/PaymentController.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $update', 'APPPATH/Controllers/PaymentController.php', 246)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->razorpayCallback('13')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 12:36:05 --> Undefined variable $verification
+in APPPATH/Controllers/PaymentController.php on line 247.
+ 1 APPPATH/Controllers/PaymentController.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $verification', 'APPPATH/Controllers/PaymentController.php', 247)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->razorpayCallback('13')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 01:06:54 --> Cannot access offset of type string on string
+in APPPATH/Views/frontend/invoice.php on line 15.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/invoice', [], true)
+ 4 APPPATH/Controllers/PaymentController.php(918): view('frontend/invoice')
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->order_invoice('13')
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 01:16:31 --> Undefined property: stdClass::$booking_product_order_book_id
+in APPPATH/Controllers/Admin.php on line 5061.
+ 1 APPPATH/Controllers/Admin.php(5061): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_product_order_book_id', 'APPPATH/Controllers/Admin.php', 5061)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 01:17:25 --> Undefined property: stdClass::$booking_product_order_book_id
+in APPPATH/Controllers/Admin.php on line 5061.
+ 1 APPPATH/Controllers/Admin.php(5061): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_product_order_book_id', 'APPPATH/Controllers/Admin.php', 5061)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 01:18:21 --> Undefined property: stdClass::$booking_product_image
+in APPPATH/Controllers/Admin.php on line 5069.
+ 1 APPPATH/Controllers/Admin.php(5069): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_product_image', 'APPPATH/Controllers/Admin.php', 5069)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 01:18:50 --> Attempt to read property "razorpay_payment_id" on array
+in APPPATH/Controllers/Admin.php on line 5098.
+ 1 APPPATH/Controllers/Admin.php(5098): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "razorpay_payment_id" on array', 'APPPATH/Controllers/Admin.php', 5098)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 01:18:52 --> Attempt to read property "razorpay_payment_id" on array
+in APPPATH/Controllers/Admin.php on line 5098.
+ 1 APPPATH/Controllers/Admin.php(5098): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "razorpay_payment_id" on array', 'APPPATH/Controllers/Admin.php', 5098)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 01:18:54 --> Attempt to read property "razorpay_payment_id" on array
+in APPPATH/Controllers/Admin.php on line 5098.
+ 1 APPPATH/Controllers/Admin.php(5098): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "razorpay_payment_id" on array', 'APPPATH/Controllers/Admin.php', 5098)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 01:18:57 --> Attempt to read property "razorpay_payment_id" on array
+in APPPATH/Controllers/Admin.php on line 5095.
+ 1 APPPATH/Controllers/Admin.php(5095): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "razorpay_payment_id" on array', 'APPPATH/Controllers/Admin.php', 5095)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 01:21:46 --> Attempt to read property "razorpay_payment_id" on array
+in APPPATH/Controllers/Admin.php on line 5095.
+ 1 APPPATH/Controllers/Admin.php(5095): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "razorpay_payment_id" on array', 'APPPATH/Controllers/Admin.php', 5095)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 01:51:20 --> Undefined variable $productrow
+in APPPATH/Views/frontend/index.php on line 154.
+ 1 APPPATH/Views/frontend/index.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productrow', 'APPPATH/Views/frontend/index.php', 154)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH/Controllers/Home.php(47): view('frontend/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 04:07:47 --> Undefined property: stdClass::$order_book_id
+in APPPATH/Views/frontend/dashboard/index.php on line 152.
+ 1 APPPATH/Views/frontend/dashboard/index.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$order_book_id', 'APPPATH/Views/frontend/dashboard/index.php', 152)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/index', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(37): view('frontend/dashboard/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 04:07:52 --> Undefined property: stdClass::$order_book_id
+in APPPATH/Views/frontend/dashboard/index.php on line 152.
+ 1 APPPATH/Views/frontend/dashboard/index.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$order_book_id', 'APPPATH/Views/frontend/dashboard/index.php', 152)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/index', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(37): view('frontend/dashboard/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 04:08:55 --> Undefined property: stdClass::$order_book_id
+in APPPATH/Views/frontend/dashboard/index.php on line 152.
+ 1 APPPATH/Views/frontend/dashboard/index.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$order_book_id', 'APPPATH/Views/frontend/dashboard/index.php', 152)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/index', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(37): view('frontend/dashboard/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 04:09:25 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3359.
+ 1 APPPATH/Controllers/Admin.php(3359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3359)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 04:09:51 --> Undefined property: stdClass::$order_book_id
+in APPPATH/Views/frontend/dashboard/index.php on line 152.
+ 1 APPPATH/Views/frontend/dashboard/index.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$order_book_id', 'APPPATH/Views/frontend/dashboard/index.php', 152)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/index', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(37): view('frontend/dashboard/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-27 04:25:11 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3359.
+ 1 APPPATH/Controllers/Admin.php(3359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3359)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

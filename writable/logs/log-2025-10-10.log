@@ -1,0 +1,194 @@
+CRITICAL - 2025-10-10 01:39:29 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:40:01 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:47:46 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:49:16 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:50:18 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:53:23 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:53:32 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:53:41 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:53:50 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:54:18 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:55:24 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:57:35 --> Call to a member function all_multiple_query_order_by() on null
+in APPPATH/Models/Ajaxlist.php on line 26.
+ 1 APPPATH/Models/Ajaxlist.php(63): App\Models\Ajaxlist->getAllCategoryIds(5)
+ 2 APPPATH/Models/Ajaxlist.php(119): App\Models\Ajaxlist->_get_datatables_query('/home2/aseelectricalco/public_html/ajit-panicker', '5', '/home2/aseelectricalco/public_html/ajit-panicker', '/home2/aseelectricalco/public_html/ajit-panicker', null, null, null, [])
+ 3 APPPATH/Controllers/Home.php(578): App\Models\Ajaxlist->count_all_frontend('/home2/aseelectricalco/public_html/ajit-panicker', '5', '/home2/aseelectricalco/public_html/ajit-panicker', '/home2/aseelectricalco/public_html/ajit-panicker', null, null, null, [])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->ajax_list('1')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:57:42 --> Call to a member function all_multiple_query_order_by() on null
+in APPPATH/Models/Ajaxlist.php on line 26.
+ 1 APPPATH/Models/Ajaxlist.php(63): App\Models\Ajaxlist->getAllCategoryIds(3)
+ 2 APPPATH/Models/Ajaxlist.php(119): App\Models\Ajaxlist->_get_datatables_query('/home2/aseelectricalco/public_html/ajit-panicker', '3', '/home2/aseelectricalco/public_html/ajit-panicker', '/home2/aseelectricalco/public_html/ajit-panicker', null, null, null, [])
+ 3 APPPATH/Controllers/Home.php(578): App\Models\Ajaxlist->count_all_frontend('/home2/aseelectricalco/public_html/ajit-panicker', '3', '/home2/aseelectricalco/public_html/ajit-panicker', '/home2/aseelectricalco/public_html/ajit-panicker', null, null, null, [])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->ajax_list('1')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:59:27 --> Call to a member function all_multiple_query_order_by() on null
+in APPPATH/Models/Ajaxlist.php on line 26.
+ 1 APPPATH/Models/Ajaxlist.php(56): App\Models\Ajaxlist->getAllCategoryIds(3)
+ 2 APPPATH/Models/Ajaxlist.php(111): App\Models\Ajaxlist->_get_datatables_query('/home2/aseelectricalco/public_html/ajit-panicker', '3', '/home2/aseelectricalco/public_html/ajit-panicker', '/home2/aseelectricalco/public_html/ajit-panicker', null, null, null, [])
+ 3 APPPATH/Controllers/Home.php(578): App\Models\Ajaxlist->count_all_frontend('/home2/aseelectricalco/public_html/ajit-panicker', '3', '/home2/aseelectricalco/public_html/ajit-panicker', '/home2/aseelectricalco/public_html/ajit-panicker', null, null, null, [])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->ajax_list('1')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 01:59:38 --> Call to a member function all_multiple_query_order_by() on null
+in APPPATH/Models/Ajaxlist.php on line 26.
+ 1 APPPATH/Models/Ajaxlist.php(56): App\Models\Ajaxlist->getAllCategoryIds(3)
+ 2 APPPATH/Models/Ajaxlist.php(111): App\Models\Ajaxlist->_get_datatables_query('/home2/aseelectricalco/public_html/ajit-panicker', '3', '/home2/aseelectricalco/public_html/ajit-panicker', '/home2/aseelectricalco/public_html/ajit-panicker', null, null, null, [])
+ 3 APPPATH/Controllers/Home.php(578): App\Models\Ajaxlist->count_all_frontend('/home2/aseelectricalco/public_html/ajit-panicker', '3', '/home2/aseelectricalco/public_html/ajit-panicker', '/home2/aseelectricalco/public_html/ajit-panicker', null, null, null, [])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->ajax_list('1')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 02:07:45 --> Too few arguments to function App\Models\Commanmodel::all_multiple_query_order_by_limit_with_like(), 5 passed in /home2/aseelectricalco/public_html/ajit-panicker/app/Views/frontend/index.php on line 90 and exactly 6 expected
+in APPPATH/Models/Commanmodel.php on line 563.
+ 1 APPPATH/Views/frontend/index.php(90): App\Models\Commanmodel->all_multiple_query_order_by_limit_with_like('product', [...], [...], 'product_id', 'DESC')
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH/Controllers/Home.php(55): view('frontend/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 02:10:44 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 02:12:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 02:17:35 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 02:18:19 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 08:00:06 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 08:03:23 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 08:05:23 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 08:08:10 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 08:10:58 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-10 08:11:26 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3327.
+ 1 APPPATH/Controllers/Admin.php(3327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('category-create')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

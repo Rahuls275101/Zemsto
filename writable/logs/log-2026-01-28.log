@@ -1,0 +1,508 @@
+CRITICAL - 2026-01-28 23:22:38 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:22:54 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:24:20 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:25:22 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:26:02 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:29:28 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:29:28 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:29:58 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:30:01 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:30:28 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:30:59 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:31:30 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:32:00 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:32:21 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:32:30 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:33:01 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:33:32 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:34:02 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:34:32 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:35:03 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:35:34 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:36:04 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:36:22 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:36:22 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:36:36 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:36:54 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:37:24 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:37:55 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:37:55 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:38:25 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:38:55 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:39:25 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:39:55 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:40:25 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:40:55 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:41:25 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:41:57 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:42:27 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:42:58 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:43:28 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:43:59 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:44:20 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:44:29 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:44:39 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:44:39 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:44:42 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:45:10 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:45:40 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:46:10 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:46:38 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:46:41 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:47:12 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:47:15 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:47:43 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:48:13 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:48:15 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:48:44 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:49:14 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:49:45 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:50:11 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:50:15 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:50:46 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:50:59 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:51:16 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:51:40 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:51:46 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:52:17 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:52:48 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:53:18 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:53:48 --> Call to a member function getPostsWithUsers() on null
+in APPPATH/Controllers/PostController.php on line 272.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PostController->getPosts('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:54:19 --> Call to a member function getPostsWithUsers() on null
+in APPPATH/Controllers/PostController.php on line 272.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PostController->getPosts('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:54:50 --> Call to a member function getPostsWithUsers() on null
+in APPPATH/Controllers/PostController.php on line 272.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PostController->getPosts('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:55:14 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:55:56 --> Call to a member function getPostsWithUsers() on null
+in APPPATH/Controllers/PostController.php on line 275.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PostController->getPosts('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:55:57 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PostController->createPost()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:56:21 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PostController->createPost()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:56:32 --> Call to a member function getPostsWithUsers() on null
+in APPPATH/Controllers/PostController.php on line 272.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PostController->getPosts('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:57:03 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:57:03 --> Class "App\Models\UserModel" not found
+in APPPATH/Controllers/PostController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:57:26 --> Class "App\Models\ReactionModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:57:33 --> Class "App\Models\ReactionModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:58:04 --> Class "App\Models\ReactionModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:58:35 --> Class "App\Models\ReactionModel" not found
+in APPPATH/Controllers/PostController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\PostController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-28 23:59:39 --> valid_color is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 323.
+ 1 SYSTEMPATH/Validation/Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_color')
+ 2 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('background_color', 'background_color', '#ffffff', [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/PostController.php(56): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PostController->createPost()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

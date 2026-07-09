@@ -1,0 +1,207 @@
+CRITICAL - 2026-01-12 00:16:26 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Admin.php(3543): CodeIgniter\Model->__call('all_multiple_query', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->update_product_process('1')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:16:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Admin.php(3543): CodeIgniter\Model->__call('all_multiple_query', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->update_product_process('1')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:37:40 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:37:40 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:38:17 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:38:17 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:38:25 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:38:26 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:39:06 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:39:06 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:40:17 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:40:56 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:43:11 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:43:14 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:43:16 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:43:18 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:43:19 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:44:48 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:44:50 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:47:18 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:49:11 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 600.
+ 1 APPPATH/Controllers/Home.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('img', 'figure', 'figure6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 00:53:52 --> strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH/Controllers/Admin.php on line 3757.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH/Controllers/Admin.php', 3757)
+ 2 APPPATH/Controllers/Admin.php(3757): strip_tags(null)
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_blog_process()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 01:05:14 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 370.
+ 1 APPPATH/Controllers/Home.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "meta_title" on null', 'APPPATH/Controllers/Home.php', 370)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail('FCPATH/assets', 'imgs', 'send.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 01:08:26 --> Undefined variable $newblogrow
+in APPPATH/Views/frontend/blog_detail.php on line 10.
+ 1 APPPATH/Views/frontend/blog_detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newblogrow', 'APPPATH/Views/frontend/blog_detail.php', 10)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/blog_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/blog_detail', [], true)
+ 5 APPPATH/Controllers/Home.php(379): view('frontend/blog_detail')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail('my-dental-office-blo-aret-are-building-a-healthy-and-cousderty-cmunity-one-individual-at-a-timeveniam-quis-laore-nostrud')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 01:08:47 --> Undefined variable $newblogrow
+in APPPATH/Views/frontend/blog_detail.php on line 10.
+ 1 APPPATH/Views/frontend/blog_detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newblogrow', 'APPPATH/Views/frontend/blog_detail.php', 10)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/blog_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/blog_detail', [], true)
+ 5 APPPATH/Controllers/Home.php(379): view('frontend/blog_detail')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail('my-dental-office-blo-aret-are-building-a-healthy-and-cousderty-cmunity-one-individual-at-a-timeveniam-quis-laore-nostrud')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 01:13:13 --> Too few arguments to function App\Controllers\Admin::faq(), 0 passed in /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH/Controllers/Admin.php on line 4108.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->faq()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 01:14:03 --> Undefined variable $id
+in APPPATH/Controllers/Admin.php on line 4113.
+ 1 APPPATH/Controllers/Admin.php(4113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH/Controllers/Admin.php', 4113)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->faq()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-12 01:14:43 --> Too few arguments to function App\Controllers\Admin::delete_faq(), 1 passed in /home3/snindustries/public_html/clinicianleader/system/CodeIgniter.php on line 925 and exactly 2 expected
+in APPPATH/Controllers/Admin.php on line 4172.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->delete_faq('19')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
